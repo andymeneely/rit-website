@@ -1,16 +1,16 @@
 <div class="sidebar well">
-{{ site.description }}
+	<img src="{{site.baseurl}}/images/Andy200.jpg"><br>
+	{{site.description}}
 </div>
 
-<div class="sidebar well">
-    <h1>Recent Posts</h1>
-    <ul>
-        {% for post in site.posts limit:5 %}
-          <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-    </ul>
-</div>
+<address class="sidebar well">
+	Department of Software Engineering<br>
+	Rochester Institute of Technology<br>
+	134 Lomb Memorial Drive<br>
+	Rochester, NY 14623-5608<br>
 
-<div class="sidebar well">
-{% include links-list.html %}
-</div>
+	Golisano 70-1547<br>
+	(585)475-7829<br>
+	andy (AT) se.rit.edu<br>
+</address>
+

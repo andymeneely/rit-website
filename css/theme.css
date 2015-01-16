@@ -3,6 +3,10 @@ body {
     padding-bottom: 60px;
 }
 
+address{
+    font-size: 75%;
+}
+
 .copyright {
     color: #ffffff;
 }
@@ -31,6 +35,10 @@ body {
 
 .sidebar a:hover {
     color: #3071a9;
+}
+
+.sidebar img {
+    width: 100%;
 }
 
 .container-left {

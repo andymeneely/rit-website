@@ -2,13 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <title>{{ site.name }}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
     <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/css/theme.css" rel="stylesheet">
+    <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico" type="image/x-icon">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -27,14 +29,13 @@
               </div>
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="{{ site.baseurl }}/">Home</a></li>
-                    <li class="active visible-xs-block"><a href="{{ site.baseurl }}/links.html">Links</a></li>
-                    <li class="active"><a href="{{ site.baseurl }}/archive.html">Archive</a></li>
-                    <li class="active"><a href="{{ site.baseurl }}/about.html">About</a></li>
-                    <li class="active"><a href="{{ site.baseurl }}/feed.xml">RSS</a></li>
-                    {% if site.github != '' %}
-                      <li class="active"><a href="https://github.com/{{ site.github }}">Github</a></li>
-                    {% endif %}
+                    <li class="active"><a class="fa fa-home" href="{{ site.baseurl }}/">Home</a></li>
+                    <li class="active"><a href="{{ site.baseurl }}/research/">Research</a></li>
+                    <li class="active"><a href="{{ site.baseurl }}/">Publications</a></li>
+                    <li class="active"><a href="{{ site.baseurl }}/cv">CV</a></li>
+                    <li class="active"><a href="{{ site.baseurl }}/myconfigs">My Config Files</a></li>
+                    <li class="active"><a href="{{ site.baseurl }}/door">Comics</a></li>
+                    <li class="active"><a href="{{ site.baseurl }}/at">@</a></li>
                 </ul>
               </div>
         </div>
