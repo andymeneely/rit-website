@@ -50,6 +50,15 @@ address{
     font-size: 1.3em;
 }
 
+.well td{
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.well td:first-of-type{
+   text-align: right;
+}
+
 .author {
     color: #ee4444;
 }
