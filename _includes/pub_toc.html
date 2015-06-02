@@ -1,0 +1,28 @@
+<div class="pubtoc well">
+	Journal
+	<ul>
+		{% for post in site.tags.journal %}
+			<li><a href="#{{post.pub_id}}">{{post.toc}}</a></li>
+		{% endfor %}
+	</ul>
+	Conference
+	<ul>
+		{% for post in site.tags.conference %}
+			<li><a href="#{{post.pub_id}}">{{post.toc}}</a></li>
+		{% endfor %}
+	</ul>
+
+	Book Chapter
+	<ul>
+		{% for post in site.tags.book_chapter %}
+			<li><a href="#{{post.pub_id}}">{{post.toc}}</a></li>
+		{% endfor %}
+	</ul>
+
+	Workshop
+	<ul>
+		{% for post in site.tags.workshop %}
+			<li><a href="#{{post.pub_id}}">{{post.toc}}</a></li>
+		{% endfor %}
+	</ul>
+</div>

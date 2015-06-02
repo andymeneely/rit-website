@@ -1,0 +1,92 @@
+#pubs{
+	text-align: left;
+	font-family: Helvetica, sans-serif;
+}
+
+/* The title */
+#pubs span b{
+	font-size: 110%;
+	font-weight: bold;
+	display: block;
+}
+
+/* Everything after Title */
+#pubs span i{
+	font-size: 80%;
+}
+
+/* Authors */
+#pubs span i:nth-of-type(1){
+	display: block;
+	font-style: normal;
+}
+
+/* Venue, Locators, Pages */
+#pubs span i:nth-of-type(2), #pubs span i:nth-of-type(3), #pubs span i:nth-of-type(4){
+	display: inline;
+	font-style: italic;
+}
+
+/* Date */
+#pubs span i:nth-of-type(5){
+	display: block;
+	font-style: normal;
+}
+
+.showlink {
+	position: inherit;
+	width: 80%;
+	text-align: left;
+	font-size: 80%;
+}
+
+.pubabstract {
+	font-size: 12px;
+	/*width: 75%;*/
+	display: none;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.pubcloudthumb {
+	float: right;
+	font-size: 8pt;
+	font-style: italic;
+	border: inset;
+	border-width: 1px;
+	border-color: #9999ff;
+}
+
+.pubcloud {
+	clear: right;
+	text-align: center;
+	width: 75%;
+	display: none;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	font-size: 8pt;
+	font-style: italic;
+}
+
+.pubdivider {
+	padding-top: 10px;
+	clear: right;
+}
+
+.pubtoc {
+	font-size: 80%;
+}
+
+.pubtoc ul {
+	list-style: none;
+	margin-left: 5px;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.pubtoc li {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: normal;
+}

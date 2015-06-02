@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<style type="text/css" media="all"> 
+    @import "{% css publications.css %}"; 
+</style>
+
+<div class="container container-left">
+    <div class="row">
+        <div class="col-sm-4">
+            {% include sidebar.html %}
+        </div>
+        <div class="col-sm-6">
+			{{content}}
+        </div>
+        <div class="col-sm-2">
+        	{% include pub_toc.html %}
+        </div>
+    </div>
+</div>
+

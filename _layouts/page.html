@@ -2,6 +2,16 @@
 layout: default
 ---
 
-<div class="well">
- {{content}}
+<div class="container container-left">
+    <div class="row">
+        <div class="col-sm-4">
+            {% include sidebar.html %}
+        </div>
+        <div class="col-sm-8">
+	        <div class="well">
+				{{content}}
+			</div>
+        </div>
+    </div>
 </div>
+

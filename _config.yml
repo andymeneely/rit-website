@@ -24,6 +24,22 @@ gaaccount: ''
 disqus: ''
 comments: false
 
+# Used in my own custom tags, relative to baseurl
+css_dir: css
+img_dir: images
+
+gems:
+  - jekyll/scholar
+
+# Jekyll Scholar settings
+scholar:
+  style: _bibliography/ieee-pubspage.csl
+  locale: en
+  sort_by: year
+  order: descending
+  source: _bibliography/
+  bibliography: meneely.bib
+
 permalink: /:year/:month/:title
 
 highlighter: rouge
