@@ -13,7 +13,8 @@ module Jekyll
 
       def render(context)
         set_context_to context
-        bibliography[@key].to_s
+        pub_id = context.environments.first['page'][@key]
+        bibliography[pub_id].to_s
       end
     end
 
