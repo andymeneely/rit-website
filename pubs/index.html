@@ -3,24 +3,15 @@ layout: pubs
 ---
 <div class="well">
 	<h1> Publications</h1>
-	<div id=pubspage>
-		<div id=pubs>
-		{% for post in site.categories.publications %}
-			{{post.content}}
-			<div class="pubdivider"></div>
-		{% endfor %}
-		</div>
-	</div>
 </div>
 
-<div class="well">
 	<div id="pubspage">
 		<div id="pubs">
 		{% for post in site.categories.publications %}
+		<div class="well">
 			{{post.content}}
-			<div class="pubdivider"></div>
-		{% endfor %}
 		</div>
+		{% endfor %}
 	</div>
 </div>
 

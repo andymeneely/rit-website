@@ -1,6 +1,7 @@
 #pubs{
 	text-align: left;
 	font-family: Helvetica, sans-serif;
+	line-height: 1.1;
 }
 
 /* The title */
@@ -66,11 +67,6 @@
 	padding-top: 15px;
 	font-size: 8pt;
 	font-style: italic;
-}
-
-.pubdivider {
-	padding-top: 10px;
-	clear: right;
 }
 
 .pubtoc {
