@@ -2,6 +2,7 @@
 
 name: Andy Meneely, PhD
 description:
+encoding: utf-8
 
 # url is currently only used only for the RSS feed in feed.xml
 # url: http://scotte.github.io

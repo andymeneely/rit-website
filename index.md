@@ -17,7 +17,7 @@ Andy has been an assistant professor of Software Engineering at RIT since 2011. 
 # Recent Publications
 <div id="pubspage">
 <div id="pubs">
-{% for post in site.categories.pubs limit:5 %}
+{% for post in site.categories.publications limit:5 %}
 {{post.content}}
 <div class="pubdivider"></div>
 {% endfor %}
