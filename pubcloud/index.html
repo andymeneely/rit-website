@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="container container-left">
+    <div class="row">
+
+{% for post in site.categories.publications %}
+        <div class="col-sm-3">
+			<div id="{{post.pub_id}}_wordcloud" class="pubcloud shown">
+				<script src="{{ site.baseurl }}/pubs/wordfreqs/{{post.pub_id}}.js"></script>
+				<canvas id="{{post.pub_id}}_canvas"></canvas>
+				<script type="text/javascript">show_pubcloud("{{post.pub_id}}")</script>
+			</div>
+		</div>
+{% endfor %}
+
+    </div>
+</div>

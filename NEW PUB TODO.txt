@@ -1,0 +1,5 @@
+
+
+To update the word cloud, get the full text into a text file. (using https://github.com/timdream/wordfreq)
+
+$ wordfreq --min 10 MeneelyESEM2013.txt > c:\local\workspaces\ruby\rit-website\pubs\wordfreqs\MeneelyESEM2013.js

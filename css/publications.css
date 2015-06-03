@@ -61,12 +61,19 @@
 .pubcloud {
 	clear: right;
 	text-align: center;
-	width: 75%;
 	display: none;
 	padding-bottom: 15px;
 	padding-top: 15px;
 	font-size: 8pt;
 	font-style: italic;
+}
+
+.pubcloud.shown{
+	display: inline;
+}
+
+.pubcloud canvas{
+	width: 100%;
 }
 
 .pubtoc {
