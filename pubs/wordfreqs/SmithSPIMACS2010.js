@@ -1,3 +1,4 @@
+SmithSPIMACS2010_wordfreq = 
 [ [ 'secure', 99 ],
   [ 'system', 93 ],
   [ 'attack', 90 ],

@@ -1,3 +1,4 @@
+MeneelySSE2014_wordfreq = 
 [ [ 'review', 165 ],
   [ 'vulnerable', 133 ],
   [ 'code', 117 ],

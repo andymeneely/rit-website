@@ -1,3 +1,4 @@
+MeneelyIEEEPS2010_wordfreq = 
 [ [ 'team', 107 ],
   [ 'secure', 82 ],
   [ 'poker', 74 ],

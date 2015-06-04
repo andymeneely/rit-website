@@ -1,3 +1,4 @@
+MeneelyWETSOM2010_wordfreq = 
 [ [ 'developer', 165 ],
   [ 'network', 93 ],
   [ 'central', 55 ],

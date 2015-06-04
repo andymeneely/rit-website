@@ -1,3 +1,4 @@
+MeneelyITICSE2008_wordfreq = 
 [ [ 'student', 79 ],
   [ 'jazz', 75 ],
   [ 'work', 61 ],

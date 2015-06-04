@@ -1,3 +1,4 @@
+ShinTSE2012_wordfreq = 
 [ [ 'file', 168 ],
   [ 'vulnerable', 168 ],
   [ 'predict', 158 ],

@@ -1,3 +1,4 @@
+MeneelySIGCSE2006_wordfreq = 
 [ [ 'compiler', 76 ],
   [ 'test', 40 ],
   [ 'code', 39 ],

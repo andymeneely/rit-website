@@ -1,3 +1,4 @@
+MeneelySST2011_wordfreq = 
 [ [ 'iTrust', 100 ],
   [ 'test', 62 ],
   [ 'case', 60 ],

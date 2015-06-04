@@ -1,3 +1,4 @@
+MeneelyWoSQ2012_wordfreq = 
 [ [ 'churn', 150 ],
   [ 'code', 135 ],
   [ 'metric', 94 ],

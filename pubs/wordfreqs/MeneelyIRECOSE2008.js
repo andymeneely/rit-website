@@ -1,3 +1,4 @@
+MeneelyIRECOSE2008_wordfreq = 
 [ [ 'jazz', 70 ],
   [ 'sangam', 49 ],
   [ 'pair', 45 ],
