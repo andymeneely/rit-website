@@ -1,9 +1,6 @@
   - [ ] Add details to _bibliography/meneely.bib
   - [ ] Create new file in _posts
-  - [ ] Create word cloud frequency data
+  - [ ] Create word cloud frequency data in the fulltexts repo (update script and re-run)
   - [ ] Jekyll build
   - [ ] Post to public_html
 
-To update the word cloud, get the full text into a text file. (using https://github.com/timdream/wordfreq)
-
-$ wordfreq --min 10 MeneelyESEM2013.txt > c:\local\workspaces\ruby\rit-website\pubs\wordfreqs\MeneelyESEM2013.js

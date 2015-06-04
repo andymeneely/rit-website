@@ -53,3 +53,4 @@ exclude:
   - LICENSE
   - Gemfile
   - Gemfile.lock
+  - NEW PUB TODO.txt
