@@ -78,6 +78,7 @@
 
 .pubtoc {
 	font-size: 80%;
+	font-weight: bold;
 }
 
 .pubtoc ul {
@@ -92,4 +93,17 @@
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: normal;
+	font-weight: normal;
+}
+
+.pubanchor{
+  display: block;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
+}
+
+/* highlight selected */
+.pubanchor:target + .well{
+	border-left: 5pt solid #aaa;
 }

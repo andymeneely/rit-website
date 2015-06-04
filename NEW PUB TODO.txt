@@ -1,4 +1,8 @@
-
+  - [ ] Add details to _bibliography/meneely.bib
+  - [ ] Create new file in _posts
+  - [ ] Create word cloud frequency data
+  - [ ] Jekyll build
+  - [ ] Post to public_html
 
 To update the word cloud, get the full text into a text file. (using https://github.com/timdream/wordfreq)
 

@@ -9,7 +9,9 @@ layout: default
         <div class="col-sm-3">
 			<div id="{{post.pub_id}}_wordcloud" class="pubcloud shown">
 				<script src="{{ site.baseurl }}/pubs/wordfreqs/{{post.pub_id}}.js"></script>
-				<canvas id="{{post.pub_id}}_canvas"></canvas>
+				<a href="{{ site.baseurl }}/pubs/#{{post.pub_id}}">
+					<canvas id="{{post.pub_id}}_canvas"></canvas>
+				</a>
 				<script type="text/javascript">show_pubcloud("{{post.pub_id}}")</script>
 			</div>
 		</div>

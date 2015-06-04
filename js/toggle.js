@@ -20,7 +20,7 @@ function show_pubcloud(id){
 		canvas.width = 600;
 		canvas.height = 400;
 		WordCloud(canvas, {
-			list: MeneelyESEM2013_wordfreq,
+			list: window[id + "_wordfreq"],
 			gridSize: 1,
 			weightFactor: 0.8,
 			minRotation: 0,
