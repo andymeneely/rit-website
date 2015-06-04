@@ -107,3 +107,7 @@
 .pubanchor:target + .well{
 	border-left: 5pt solid #aaa;
 }
+
+.pubdivider{
+	margin-bottom: 20px;
+}

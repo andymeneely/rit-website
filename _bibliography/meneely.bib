@@ -1,6 +1,34 @@
 ---
 ---
 
+@article{CamiloMSR2015,
+  author = {Felivel Camilo and Andrew Meneely and Meiyappan Nagappan},
+  title = {Do Bugs Foreshadow Vulnerabilities? A Study of the Chromium Project},
+  journal ={2015 International Working Conference on Mining Software Repositories},
+  pages = {to appear},
+  award = { ACM Distinguished Paper Award, MSR 2015 Best Paper},
+  doi = {},
+  abstract = {As developers face ever-increasing pressure to engineer secure software, researchers are building an understanding of security-sensitive bugs (i.e. vulnerabilities). Research into min- ing software repositories has greatly increased our understanding of software quality via empirical study of bugs. However, con- ceptually vulnerabilities are different from bugs: they represent abusive functionality as opposed to wrong or insufficient function- ality commonly associated with traditional, non-security bugs. In this study, we performed an in-depth analysis of the Chromium project to empirically examine the relationship between bugs and vulnerabilities. We mined 374,686 bugs and 703 post-release vulnerabilities over five Chromium releases that span six years of development. Using logistic regression analysis, we examined how various categories of pre-release bugs (e.g. stability, compatibility, etc.) are associated with post-release vulnerabilities. While we found statistically significant correlations between pre-release bugs and post-release vulnerabilities, we also found the asso- ciation to be weak. Number of features, SLOC, and number of pre-release security bugs are, in general, more closely associated with post-release vulnerabilities than any of our non-security bug categories. In a separate analysis, we found that the files with highest defect density did not intersect with the files of highest vulnerability density. These results indicate that bugs and vulnerabilities are empirically dissimilar groups, warranting the need for more research targeting vulnerabilities specifically.}, }
+
+@article{MeneelyASD2015,
+  author = {Andrew Meneely},
+  title = {Analyzing Security Data},
+  journal ={The Art and Science of Analyzing Software Data},
+  publisher = {Elsevier},
+  pages = {213--227},
+  doi = {},
+  abstract = {Security is a challenging and strange property of software. Security is not about understanding how a customer might use the system; security is about ensuring that an attacker cannot abuse the system. Instead of defining what the system should do, security is about ensuring that system does not do something malicious. As a result, applying traditional software analytics to security leads to some unique challenges and caveats. In this chapter, we will discuss four "gotchas" of analyzing security data, along with vulnerabilities and severity scoring. We will describe a method commonly-used for collecting security data in open source projects. We will describe some of the state-of-the-art in analyzing security data today.}, 
+  }
+
+@article{KrutzFIE2015,
+  author = {Daniel E. Krutz and Andrew Meneely and Samuel A. Malachowsky},
+  title = {An Insider Threat Activity in a Software Security Course},
+  journal ={2015 IEEE Frontiers in Education Conference (FIE)},
+  pages = {to appear},
+  doi = {},
+  abstract = {Software development teams face a critical threat to the security of their systems: insiders. A malicious insider is a person who violates an authorized level of access in a software system. Unfortunately, when creating software, developers do not typically account for insider threat. Students learning software development are unaware of the impacts of malicious actors and are far too often untrained in prevention methods against them. A few of the defensive mechanisms to protect against insider threats include eliminating system access once an employee leaves an organization, enforcing principle of least privilege, code reviews, and constant monitoring for suspicious activity. At the Department of Software Engineering at the Rochester Institute of Technology, we require a course titled Engineering of Secure Software and have created an activity designed to prepare students for the problem of insider threats. At the beginning of this activity, student teams are given the task of designing a moderately sized secure software system. The goal of this insider is to manipulate the team into creating a flawed system design that would allow attackers to perform malicious activities once the system has been created. When the insider is revealed at the conclusion of the project, students discuss countermeasures regarding the malicious actions the insiders were able to plan or complete, along with methods of prevention that may have been employed by the team to detect the malicious developer. In this paper, we describe the activity along with the results of a survey. We discuss the benefits and challenges of the activity with the goal of giving other instructors the tools they need to conduct this activity at their institution. While many institutions do not offer courses in computer security, this self-contained activity may be used in any computing course to enforce the importance of protecting against insider threats.}, 
+ }
+
 @article{MeneelySSE2014,
   author = {Meneely, Andrew and Tejeda, Alberto C. Rodriguez and Spates, Brian and Trudeau, Shannon and Neuberger, Danielle and Whitlock, Katherine and Ketant, Christopher and Davis, Kayla},
   title = {An Empirical Investigation of Socio-technical Code Review Metrics and Security Vulnerabilities},
